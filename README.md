@@ -31,3 +31,10 @@ VerseFrame Studio is designed to turn authorized source videos into reviewed kar
 - [Research sources](docs/SOURCES.md)
 
 The application is not runnable yet. Docker manifests and dependency pins will be added after host validation; speculative install commands are intentionally not presented as working setup instructions.
+
+## Learning guides and reusable components
+
+- [Documentation and options index](docs/README.md)
+- [Established code, snippets, and API records](docs/REUSABLE-COMPONENTS.md)
+
+Keep these guides current as setup, dependencies, APIs, permissions, and verified results change. Official samples remain candidates until relevant project checks pass.
