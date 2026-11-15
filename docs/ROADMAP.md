@@ -6,7 +6,7 @@ Requirements, proposed architecture, model candidates, repository policy, and mi
 
 ## P1: Linux host and container validation
 
-Confirm Ubuntu 26.04, exact 7.0+ kernel, firmware, graphics driver, gfx1151, usable shared memory, storage, Docker Engine, Compose, and GPU access inside an unprivileged worker. Choose and pin a matched ROCm/PyTorch/image combination from current official sources. Run representative model operations and a short actual separation/transcription/alignment/restoration sample, not just device enumeration. Record all failures and CPU alternatives using the same model. Do not count model load as quality acceptance.
+Confirm the selected Linux distribution, exact kernel, firmware, graphics driver, target GPU architecture, usable memory, storage, Docker Engine, Compose, and GPU access inside an unprivileged worker. Choose and pin a matched ROCm/PyTorch/image combination from current official sources. Run representative model operations and a short actual separation/transcription/alignment/restoration sample, not just device enumeration. Record all failures and CPU alternatives using the same model. Do not count model load as quality acceptance.
 
 ## P2: first complete working example
 

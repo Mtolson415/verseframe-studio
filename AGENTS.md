@@ -2,7 +2,7 @@
 
 Read README.md and HANDOFF.md before resuming work.
 
-Implementation is paused at the user's request until the Linux migration is complete and the user resumes this project. Planning/repository preparation is authorized; do not install models, change drivers, perform migration, or start application implementation during this pause.
+Implementation is paused until host validation prerequisites are met and the owner explicitly resumes this project. Consult private operational notes for actual host requirements. Planning/repository preparation is authorized; do not install models, change drivers, perform migration, or start application implementation during this pause.
 
 Prioritize quality and local AMD Strix Halo operation. Never silently substitute cloud inference, a smaller model, lower source resolution, or reduced export quality to improve speed. Explain relevant choices.
 

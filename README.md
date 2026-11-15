@@ -2,16 +2,16 @@
 
 Local karaoke and synchronized lyric video production.
 
-**Status: architecture and planning complete; implementation paused for Linux migration.** No application, model execution, Docker image, or media export has been verified for this project.
+**Status: architecture and planning complete; implementation paused pending host validation and explicit resumption.** No application, model execution, Docker image, or media export has been verified for this project.
 
-VerseFrame Studio is designed to turn authorized source videos into reviewed karaoke videos. It preserves the original picture, separates singing from accompaniment, gathers and transcribes English lyrics, aligns them to the recording, and renders configurable timing cues. Its initial community use is church activities; the product is designed for general use.
+VerseFrame Studio is designed to turn authorized source videos into reviewed karaoke videos. It preserves the original picture, separates singing from accompaniment, gathers and transcribes English lyrics, aligns them to the recording, and renders configurable timing cues. It is designed for general use.
 
 ## Agreed requirements
 
 - Quality takes priority over processing speed; preparation happens ahead of playback.
-- Local model inference on AMD Strix Halo: Ryzen AI Max+ 395 / Radeon 8060S (gfx1151), 128 GB shared memory.
-- Ubuntu 26.04 LTS with the user's intended Linux 7.0+ kernel. Exact kernel/driver/runtime compatibility must be validated after migration.
-- Docker Compose application with a local web UI, accessible on the Z13 only.
+- Local model inference; AMD gfx1151 is an unverified compatibility target. Memory requirements must be measured for selected models.
+- Ubuntu Linux reference host. Exact distribution, kernel, driver and runtime combinations require validation before support is claimed.
+- Docker Compose application with a local web UI, bound to loopback on the local host.
 - English lyrics; solo, choir, children, and mixed arrangements are evaluation targets, not claims of equal accuracy.
 - Selectable vocal removal and guide-vocal mixing; lead/backing separation where models support it.
 - Online lyric discovery, singing transcription, manual entry, comparison, and correction. Free sources first; optional paid integrations later.
@@ -38,3 +38,7 @@ The application is not runnable yet. Docker manifests and dependency pins will b
 - [Established code, snippets, and API records](docs/REUSABLE-COMPONENTS.md)
 
 Keep these guides current as setup, dependencies, APIs, permissions, and verified results change. Official samples remain candidates until relevant project checks pass.
+
+## Publication maintenance — 2026-11-15
+
+Public documentation was generalized to separate reusable project information from owner-specific operational context. Private handoffs retain necessary continuity. Review future public changes for personal identifiers, device inventory and private repository names. Earlier Git revisions are unchanged.

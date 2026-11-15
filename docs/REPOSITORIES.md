@@ -1,9 +1,9 @@
 # Public and private repositories
 
-Planned GitHub owner: Mtolson415.
+GitHub owner: Mtolson415.
 
 - `verseframe-studio`: authoritative shareable application source, generic architecture, public roadmap, install instructions when verified, and permitted demo evidence.
-- `verseframe-studio-private`: internal operational notes, unpublished experiments, private evaluation summaries and server configuration templates. Reference public commits instead of duplicating application history.
+- Separate owner-managed private companion: internal operational notes, unpublished experiments, private evaluation summaries and server configuration templates. Reference public commits instead of duplicating application history.
 
 Keep credentials out of both repositories. Keep source videos, full lyric collections, exports, model weights and temporary artifacts in mounted local storage rather than Git. Sharing media or text requires its own permission; private repository visibility is not a substitute for storage policy.
 
